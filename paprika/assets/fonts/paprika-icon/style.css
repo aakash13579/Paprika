@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'paprika-icon';
+  src:
+    url('fonts/paprika-icon.ttf?51hdp5') format('truetype'),
+    url('fonts/paprika-icon.woff?51hdp5') format('woff'),
+    url('fonts/paprika-icon.svg?51hdp5#paprika-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.paprika-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'paprika-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.paprika-arrow-right:before {
+  content: "\e901";
+}
+.paprika-arrow-left:before {
+  content: "\e900";
+}
+.paprika-reply:before {
+  content: "\e913";
+}
+.paprika-caret-down:before {
+  content: "\e912";
+}
+.paprika-close:before {
+  content: "\e906";
+}
+.paprika-menu:before {
+  content: "\e911";
+}
+.paprika-logo:before {
+  content: "\e910";
+}
+.paprika-instagram:before {
+  content: "\e902";
+}
+.paprika-search:before {
+  content: "\e90a";
+}
+.paprika-email:before {
+  content: "\e904";
+}
+.paprika-facebook:before {
+  content: "\e905";
+}
+.paprika-linkedin:before {
+  content: "\e907";
+}
+.paprika-phone:before {
+  content: "\e908";
+}
+.paprika-pinterest:before {
+  content: "\e909";
+}
+.paprika-snapchat:before {
+  content: "\e90b";
+}
+.paprika-twitter:before {
+  content: "\e90c";
+}
+.paprika-vimeo:before {
+  content: "\e90d";
+}
+.paprika-whatsapp:before {
+  content: "\e90e";
+}
+.paprika-youtube:before {
+  content: "\e90f";
+}
